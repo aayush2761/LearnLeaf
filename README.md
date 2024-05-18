@@ -25,7 +25,7 @@ Welcome to **LearnLeaf** – a dynamic blog platform where users can read, creat
   cd learnleaf ``` 
  
   2. **Install dependencies:**
-  ```bash npm install ```
+  ``` npm install ```
 
   3. **Configure Appwrite:** 
   - Sign up for an Appwrite account. 
@@ -33,7 +33,7 @@ Welcome to **LearnLeaf** – a dynamic blog platform where users can read, creat
   - Configure your Appwrite backend with the project ID and endpoint. 
   - Update the Appwrite configuration in the project.
     
-  4. **Start the development server:** ```bash npm start ``` 
+  4. **Start the development server:** ```npm start ``` 
   5. **Open the application in your browser:** 
   - Navigate to `http://localhost:3000`. 
   
