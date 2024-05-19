@@ -1,4 +1,5 @@
-# LearnLeaf Welcome to **LearnLeaf** – a dynamic blog platform where users can read, create, update, and share posts with the community. Enhance your posts with image uploads and join a vibrant community of writers and readers.
+# LearnLeaf
+Welcome to **LearnLeaf** – a dynamic blog platform where users can read, create, update, and share posts with the community. Enhance your posts with image uploads and join a vibrant community of writers and readers.
 
  ## Features 
   -  **Read Posts**: Browse and read posts created by other users. 
@@ -20,14 +21,19 @@
   
   ### Installation To get started with **LearnLeaf**, 
   follow these steps: 1. 
-  **Clone the repository:** ```bash git clone https://github.com/aayush2761/LearnLeaf.git cd learnleaf ``` 
-  2. **Install dependencies:** ```bash npm install ``` 
+  **Clone the repository:** ``` git clone https://github.com/aayush2761/LearnLeaf.git 
+  cd learnleaf ``` 
+ 
+  2. **Install dependencies:**
+  ``` npm install ```
+
   3. **Configure Appwrite:** 
   - Sign up for an Appwrite account. 
   - Create a new project in Appwrite. 
   - Configure your Appwrite backend with the project ID and endpoint. 
-  - Update the Appwrite configuration in the project. 
-  4. **Start the development server:** ```bash npm start ``` 
+  - Update the Appwrite configuration in the project.
+    
+  4. **Start the development server:** ```npm start ``` 
   5. **Open the application in your browser:** 
   - Navigate to `http://localhost:3000`. 
   
