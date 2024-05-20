@@ -6,6 +6,9 @@ export default {
       colors: {
         'blueGray': '#edf1f7',
       },
+      spacing: {
+        '128': '32rem',
+      }
     },
   },
   plugins: [],
