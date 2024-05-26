@@ -1,7 +1,7 @@
 # LearnLeaf
 Welcome to **LearnLeaf** – a dynamic blog platform where users can read, create, update, and share posts with the community. Enhance your posts with image uploads and join a vibrant community of writers and readers.
 
-🔗```https://learn-leaf-bi1x0rukk-aayush-gupta-s-projects.vercel.app```
+🔗```https://learn-leaf-sigma.vercel.app/```
 
  ## Features 
   -  **Read Posts**: Browse and read posts created by other users. 
