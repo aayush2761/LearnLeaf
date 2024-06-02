@@ -1,6 +1,8 @@
 # LearnLeaf
 Welcome to **LearnLeaf** – a dynamic blog platform where users can read, create, update, and share posts with the community. Enhance your posts with image uploads and join a vibrant community of writers and readers.
 
+🔗```https://learn-leaf-sigma.vercel.app/```
+
  ## Features 
   -  **Read Posts**: Browse and read posts created by other users. 
   -  **Create Posts**: Write and share your own posts with the community. 
@@ -20,8 +22,9 @@ Welcome to **LearnLeaf** – a dynamic blog platform where users can read, creat
   ### Prerequisites - Node.js installed on your local machine. 
   
   ### Installation To get started with **LearnLeaf**, 
-  follow these steps: 1. 
-  **Clone the repository:** ``` git clone https://github.com/aayush2761/LearnLeaf.git 
+  follow these steps:
+  
+  1. **Clone the repository:** ``` git clone https://github.com/aayush2761/LearnLeaf.git 
   cd learnleaf ``` 
  
   2. **Install dependencies:**
