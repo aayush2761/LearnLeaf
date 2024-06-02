@@ -10,6 +10,7 @@ function LogoutBtn() {
       .logout()
       .then(() => {
         dispatch(logout());
+        
       })
       .catch(() => console.log("Logout error"));
   };
