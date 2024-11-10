@@ -65,7 +65,7 @@ function Home() {
       </div>
 
           {/* CRUD Features Section */}
-          <div className="flex flex-col items-center text-left mb-12 mt-12">
+          <div className="flex flex-col items-center text-left mb-12 mt">
             <h2 className="text-sm font-semibold text-green-500">STUDENT CODE HUB</h2>
             <h1 className="text-3xl font-bold text-gray-800 mb-4">
               A collaborative platform to grow with your coding journey.

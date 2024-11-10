@@ -3,6 +3,14 @@ Welcome to **LearnLeaf** – a dynamic blog platform where users can read, creat
 
 🔗```https://learn-leaf-sigma.vercel.app/```
 
+ ## Demo Video
+ 
+
+https://github.com/aayush2761/LearnLeaf/assets/145021649/2ccb5d2d-bb4c-4df5-ac3c-4b52bbe92069
+
+
+
+
  ## Features 
   -  **Read Posts**: Browse and read posts created by other users. 
   -  **Create Posts**: Write and share your own posts with the community. 
