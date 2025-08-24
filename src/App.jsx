@@ -6,10 +6,13 @@ import { Header, Footer } from "./components/index";
 import { Outlet } from "react-router-dom";
 
 function App() {
-  const [loading, setLoading] = useState(true);
-  const dispatch = useDispatch();
+  const [loading, setLoading] = useState(true); 
+  // condition rendering 
 
-  useEffect(() => {
+  const dispatch = useDispatch();
+// merger for react to redux 
+
+  useEffect(() => {  
     authService
       .getCurrentUser()
       .then((userData) => {
@@ -22,13 +25,16 @@ function App() {
       .catch(() => console.log("No user"))
       .finally(() => setLoading(false));
   }, []);
-
+  // checks for user authenticated or not with the help of auth service 
+  
+  // conditional rendering 
   return !loading ? (
     <div className="min-h-screen flex flex-wrap content-between bg-[#edf1f7]">
       <div className="w-full block">
         <Header />
         <main className=" mt-20">
-          <Outlet />
+          <Outlet /> 
+           {/* handled by react router dom  */}
         </main>
         <Footer className=" mt-auto"/>
       </div>

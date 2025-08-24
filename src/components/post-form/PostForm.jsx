@@ -41,16 +41,18 @@ export default function PostForm({ post }) {
       }
     } else {
       const file = await storageService.uploadFile(data.image[0]);
-      if (file) {
-        const fileId = file.$id;
-        data.featuredImg = fileId;
-        const dbPost = await dataBaseService.createPost({
-          ...data,
-          userId: userData.$id,
-        });
-        if (dbPost) {
-          navigate(`/post/${dbPost.$id}`);
-        }
+      if (!file) {
+        setLoader(false);
+        alert("Image upload failed. Please try again.");
+        return;
+      }
+      data.featuredImg = file.$id;
+      const dbPost = await dataBaseService.createPost({
+        ...data,
+        userId: userData.$id,
+      });
+      if (dbPost) {
+        navigate(`/post/${dbPost.$id}`);
       }
     }
   };

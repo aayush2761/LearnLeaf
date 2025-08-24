@@ -5,8 +5,9 @@ import { useSelector } from "react-redux";
 
 function Header() {
   const authStatus = useSelector((state) => state.auth.status);
-  const navigate = useNavigate();
+  const navigate = useNavigate(); // works on url or slug 
 
+  // array seperated objects in the nav bar 
   const navItems = [
     {
       name: "Home",
@@ -16,12 +17,14 @@ function Header() {
     {
       name: "Login",
       slug: "/login",
-      active: !authStatus,
+      active: !authStatus, 
+      // user is already logined then why to show the login button 
     },
     {
       name: "Signup",
       slug: "/signup",
       active: !authStatus,
+      // if user is already logged out then why to show them the logout button 
     },
     {
       name: "All Posts",
@@ -42,7 +45,8 @@ function Header() {
           {/* Logo */}
           <div className="mr-8">
             <Link to="/">
-              <Logo width="60px" height="60px" />
+              <Logo width="60px" height="60px" />   
+              {/* component based logo */}
             </Link>
           </div>
 
@@ -57,6 +61,7 @@ function Header() {
                   >
                     {item.name}
                   </button>
+                  {/* component based button with props passed to that functional component */}
                 </li>
               ) : null
             )}

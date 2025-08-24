@@ -1,12 +1,12 @@
 import React from "react";
 
 function Button({
-  children,
+  children, // button text is the children 
   type = "button",
   bgColor = "bg-blue-600",
   textColor = "text-white",
   className = "",
-  ...props
+  ...props  // other props are being passed by user then we have to entertain that also 
 }) {
   return (
     <button

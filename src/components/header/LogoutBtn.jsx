@@ -5,7 +5,7 @@ import authService from "../../appwrite/auth";
 import { logout } from "../../store/authSlice";
 
 function LogoutBtn() {
-  const dispatch = useDispatch();
+  const dispatch = useDispatch(); // for the redux dispatcher 
   const navigate = useNavigate(); // Initialize navigate
 
   const logoutHandler = () => {

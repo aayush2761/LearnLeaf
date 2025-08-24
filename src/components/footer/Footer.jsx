@@ -11,7 +11,8 @@ function Footer() {
           <div className="w-full md:w-1/2 lg:w-3/12 mb-8">
             <div className="flex flex-col justify-between h-full">
               <div className="mb-4">
-                <Logo width="100px" />
+                <Logo width="100px" /> 
+                {/* logo component being imported as a component*/}
               </div>
               <p className="text-sm text-gray-400">
                 &copy; {new Date().getFullYear()} Developed by Aayush Gupta.
